@@ -1,0 +1,14 @@
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.fab-button{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
