@@ -44,7 +44,6 @@ function Home() {
   const [value, setValue] = useState(0)
   const [country, setCountry] = useState('us')
   const { isLoading, data: allNews } = useQuery(['news', country], () => getAllNews(country))
-  console.log('allNews: ', allNews)
 
   const handleChange = (event: React.SyntheticEvent, newValue: number) => {
     setValue(newValue)
